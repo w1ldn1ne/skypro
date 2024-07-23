@@ -66,7 +66,7 @@ public class Main {
         int maxDay = ruleGramm / minGrammPerDay;
         System.out.println("Максимум понадобится " + maxDay + " дней");
         int minDay = ruleGramm / maxGrammPerDay;
-        System.out.println("Минимум понадобится " + minDay + " дней");
+        System.out.println("Минимум понадобится " + minDay + " дней ");
         int midDay = (maxDay + minDay) / 2;
         System.out.println("В среднем понадобится " + midDay + " день");
 
